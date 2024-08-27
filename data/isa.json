@@ -1,0 +1,29 @@
+{
+  "info": "LoongArch ISA",
+  "insts": [
+    {
+      "name": "add",
+      "format": [
+        "add.w\trd,rj,rk",
+        "add.d\trd,rj,rk"
+      ],
+      "postfix": [
+        "w",
+        "d"
+      ],
+      "detail": "add operator"
+    },
+    {
+      "name": "sub",
+      "format": [
+        "sub.w\trd,rj,rk",
+        "sub.d\trd,rj,rk"
+      ],
+      "postfix": [
+        "w",
+        "d"
+      ],
+      "detail": "sub operator"
+    }
+  ]
+}
